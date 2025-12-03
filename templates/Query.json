@@ -1,0 +1,15 @@
+{
+  "name":"test1",
+  "filterBy": {
+    "cond1": [
+      {
+        "resource": {
+          "name": {
+            "contains": [
+              "POD_NAME"
+              ]
+          }
+        }
+      }]
+  }
+}
